@@ -21,10 +21,10 @@
 const vqv = (string, number) => {
   if (!string || !number) {
     return undefined;
-  } 
+  }
+  let nome = `Oi, meu nome é ${string}`;
 
-    return `Oi, meu nome é ${string}!\nTenho ${number} anos,
-    trabalho na Trybe e mando muito em programação!\n#VQV!`;
+  return `${nome}!\nTenho ${number} anos,\ntrabalho na Trybe e mando muito em programação!\n#VQV!`;
 };
 
 console.log(vqv());

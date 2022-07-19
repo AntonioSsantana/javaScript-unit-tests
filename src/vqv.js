@@ -19,16 +19,14 @@
 */
 
 const vqv = (string, number) => {
-
   if (!string || !number) {
+    return undefined;
+  } 
 
-    return undefined
-  } else {
-
-    return `Oi, meu nome é ${string}!\nTenho ${number} anos,\ntrabalho na Trybe e mando muito em programação!\n#VQV!`
-  }
+    return `Oi, meu nome é ${string}!\nTenho ${number} anos,
+    trabalho na Trybe e mando muito em programação!\n#VQV!`;
 };
 
-console.log(vqv())
+console.log(vqv());
 
 module.exports = vqv;

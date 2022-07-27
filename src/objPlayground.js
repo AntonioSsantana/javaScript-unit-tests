@@ -41,7 +41,7 @@ const calculator = (number1, number2) => ({
     sub: number1 - number2,
   });
 
-const arrayGenerator = (type, object) => Object.values(object);
+const arrayGenerator = (type, object) => 
 
 console.log(arrayGenerator('entries', calculator(2, 5)));
 
